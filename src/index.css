@@ -1,0 +1,11 @@
+.infinite-scroll-component{
+    overflow: hidden !important;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
