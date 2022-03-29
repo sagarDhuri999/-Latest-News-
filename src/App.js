@@ -8,24 +8,7 @@ import LoadingBar from 'react-top-loading-bar'
 
 const App = (props) => {
   const [progress, setProgress] = useState(0);
-  // const [articles, setArticles] = useState([])
-  // const [searchTerm, setSearchTerm] = useState("")
-  // const [searchResults, setSearchResults] = useState([])
-
-  // const searchHandler = (searchTerm) => {
-  //   // console.log(searchTerm);
-  //   setSearchTerm(searchTerm);
-  //   if (searchTerm !== "") {
-  //     const oneNews = articles.filter((element) => {
-  //       return Object.values(element).join("").toLowerCase().includes(searchTerm.toLowerCase());
-  //     })
-  //     setSearchTerm(oneNews);
-  //   }
-  //   else {
-  //     searchResults(articles)
-  //   }
-
-  // }
+  
   return (
 
     <Router>
